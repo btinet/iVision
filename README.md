@@ -8,6 +8,9 @@ iVision basiert auf dem Markerkonzept von
 und
 [TUIO](https://tuio.org).
 
+![GitHub All Releases](https://img.shields.io/github/downloads/btinet/iVision/total?style=flat-square)
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/btinet/iVision)
+
 1. [Systemvoraussetzungen](#systemvoraussetzungen)
 2. [iVision Hardware](#hardware)
    1. [Bauplan](./docs/hardware.md#ivision-hardware)

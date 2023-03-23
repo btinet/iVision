@@ -4,37 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b0e0f30d-9e9a-43a6-893a-e99eca35093d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/assets/images/tk.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/hardware.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TUIO/TuioBlob.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TUIO/TuioClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TUIO/TuioContainer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TUIO/TuioCursor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TUIO/TuioListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TUIO/TuioObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TUIO/TuioPoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TUIO/TuioTime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/illposed/osc/OSCBundle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/illposed/osc/OSCCanNotListenException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/illposed/osc/OSCListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/illposed/osc/OSCMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/illposed/osc/OSCPacket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/illposed/osc/OSCPort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/illposed/osc/OSCPortIn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/illposed/osc/OSCPortOut.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/illposed/osc/utility/OSCByteArrayToJavaConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/illposed/osc/utility/OSCJavaToByteArrayConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/illposed/osc/utility/OSCPacketDispatcher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tk/ivision/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/images/tk.png" afterDir="false" />
+    <list default="true" id="b0e0f30d-9e9a-43a6-893a-e99eca35093d" name="Changes" comment="add images">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,9 +51,27 @@
       <option name="presentableId" value="Default" />
       <updated>1679602111620</updated>
     </task>
+    <task id="LOCAL-00001" summary="inital commit">
+      <created>1679604244566</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1679604244566</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add images">
+      <created>1679604421536</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1679604421536</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="inital commit" />
+    <MESSAGE value="add images" />
+    <option name="LAST_COMMIT_MESSAGE" value="add images" />
   </component>
 </project>
