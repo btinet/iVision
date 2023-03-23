@@ -9,7 +9,7 @@ und
 [TUIO](https://tuio.org).
 
 ![GitHub All Releases](https://img.shields.io/github/downloads/btinet/iVision/total?style=flat-square)
-![GitHub Workflow Status](https://img.shields.io/github/workflow/status/btinet/iVision)
+![GitHub](https://img.shields.io/github/license/btinet/iVision)
 
 1. [Systemvoraussetzungen](#systemvoraussetzungen)
 2. [iVision Hardware](#hardware)
