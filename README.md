@@ -1,5 +1,5 @@
 # iVision
-![tk.png](docs%2Fassets%2Fimages%2Ftk.png)
+![tk.png](./docs/assets/images/tk.png)
 
 iVision ist eine Software zur intelligenten medialen
 Unterstützung von Vorträgen, Referaten und Präsentationen.
@@ -7,14 +7,21 @@ iVision basiert auf dem Markerkonzept von
 [ReacTIVision](https://reactivision.sourceforge.net/)
 und
 [TUIO](https://tuio.org).
+Dieses Projekt wird durch das [Treptow-Kolleg Berlin](https://www.treptow-kolleg.de)
+gefördert, dass Menschen im Zweiten Bildungsweg zum Abitur begleitet.
 
-![GitHub All Releases](https://img.shields.io/github/downloads/btinet/iVision/total?style=flat-square)
+*Besonderer Dank geht an die Schulleitung, die Fachbereiche Physik und Informatik sowie
+den Förderverein des Treptow-Kollegs.*
+
+![GitHub All Releases](https://img.shields.io/github/downloads/btinet/iVision/total?style=rounded)
 ![GitHub](https://img.shields.io/github/license/btinet/iVision)
 
 1. [Systemvoraussetzungen](#systemvoraussetzungen)
-2. [iVision Hardware](#hardware)
+2. [iVision Hardware](#ivision-hardware)
    1. [Bauplan](./docs/hardware.md#ivision-hardware)
    2. [Interface](./docs/hardware.md#ivision-hardware)
+3. [Marker](#marker)   
+4. Getting started
 
 ## Systemvoraussetzungen
 
@@ -28,3 +35,6 @@ und
 Es ist möglich, diese Software mit einem herkömmlichen Computer mit einem
 oder mehreren Bildschirmen sowie Beamern zu verwenden. Das beste Ergebnis
 wird allerdings mit der dedizierten **iVision**-Hardware erzielt.
+
+## Marker
+
