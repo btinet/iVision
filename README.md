@@ -38,3 +38,10 @@ wird allerdings mit der dedizierten **iVision**-Hardware erzielt.
 
 ## Marker
 
+![Marker 0.png](docs%2Ffiducials%2F1x%2FMarker%200.png)
+![Marker 1.png](docs%2Ffiducials%2F1x%2FMarker%201.png)
+![Marker 2.png](docs%2Ffiducials%2F1x%2FMarker%202.png)
+
+![Marker 3.png](docs%2Ffiducials%2F1x%2FMarker%203.png)
+![Marker 4.png](docs%2Ffiducials%2F1x%2FMarker%204.png)
+![Marker 5.png](docs%2Ffiducials%2F1x%2FMarker%205.png)
