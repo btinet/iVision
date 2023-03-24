@@ -16,12 +16,27 @@ den Förderverein des Treptow-Kollegs.*
 ![GitHub All Releases](https://img.shields.io/github/downloads/btinet/iVision/total?style=rounded)
 ![GitHub](https://img.shields.io/github/license/btinet/iVision)
 
-1. [Systemvoraussetzungen](#systemvoraussetzungen)
-2. [iVision Hardware](#ivision-hardware)
+1. [Projektstatus](#projektstatus)
+   1. [To do](#to-do)
+   2. [Ready](#ready)
+2. [Systemvoraussetzungen](#systemvoraussetzungen)
+3. [iVision Hardware](#ivision-hardware)
    1. [Bauplan](./docs/hardware.md#ivision-hardware)
    2. [Interface](./docs/hardware.md#ivision-hardware)
-3. [Marker](#marker)   
-4. Getting started
+4. [Getting started](#getting-started)
+
+## Projektstatus
+
+### To do
+
+- Responsive Content Layout (RCL)
+- Videointegration
+- Audioplayer
+- Reactable-Mode (Max MSP)
+
+### Ready
+
+- nothing yet
 
 ## Systemvoraussetzungen
 
@@ -36,12 +51,6 @@ Es ist möglich, diese Software mit einem herkömmlichen Computer mit einem
 oder mehreren Bildschirmen sowie Beamern zu verwenden. Das beste Ergebnis
 wird allerdings mit der dedizierten **iVision**-Hardware erzielt.
 
-## Marker
+## Getting started
 
-![Marker 0.png](docs%2Ffiducials%2F1x%2FMarker%200.png)
-![Marker 1.png](docs%2Ffiducials%2F1x%2FMarker%201.png)
-![Marker 2.png](docs%2Ffiducials%2F1x%2FMarker%202.png)
 
-![Marker 3.png](docs%2Ffiducials%2F1x%2FMarker%203.png)
-![Marker 4.png](docs%2Ffiducials%2F1x%2FMarker%204.png)
-![Marker 5.png](docs%2Ffiducials%2F1x%2FMarker%205.png)
