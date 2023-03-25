@@ -27,19 +27,17 @@ den Förderverein des Treptow-Kollegs.*
 
 ## Projektstatus
 
-- ✅ Feedback-Indikator (Präsentationsfolien) 
-- ✅ Feedback-Beamer Output
-
 ### To do
 
-- Responsive Content Layout (RCL)
-- Videointegration
-- Audioplayer
-- Reactable-Mode (Max MSP)
+- 🚧 Responsive Content Layout (RCL)
+- 🚧 Videointegration
+- 🚧 Audioplayer
+- ❌ Reactable-Mode (Max MSP)
 
 ### Ready
 
-- nothing yet
+- ✅ Feedback-Indikator (Präsentationsfolien)
+- ✅ Feedback-Beamer Output
 
 ## Systemvoraussetzungen
 
