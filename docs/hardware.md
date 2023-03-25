@@ -8,12 +8,13 @@
 
 ## Interface
 
-![1.png](assets%2Fimages%2Finterface%2F1.png)
+Die Arbeitsfläche dient einerseits zur Erfassung der Marker durch eine unter dem Tisch
+angebrachte Kamera und andererseits wird ein Feedback projiziert, dass dem Vortragenden
+Informationen über Position und Rotationswinkel gibt.
 
-![2.png](assets%2Fimages%2Finterface%2F2.png)
+Je nach Marker-Typ kann das Feedback zusätzliche Eingabefelder enthalten. Etwa eine
+Mediaplayer-Steuerung oder ein Folienindikator.
 
-![3.png](assets%2Fimages%2Finterface%2F3.png)
+### Präsentationsfolien
 
-![4.png](assets%2Fimages%2Finterface%2F4.png)
-
-![5.png](assets%2Fimages%2Finterface%2F5.png)
+![position_indicator_a.png](assets%2Fimages%2Fscreenshots%2Fposition_indicator_a.png)

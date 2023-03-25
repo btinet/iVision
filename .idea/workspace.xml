@@ -4,11 +4,56 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b0e0f30d-9e9a-43a6-893a-e99eca35093d" name="Changes" comment="update" />
+    <list default="true" id="b0e0f30d-9e9a-43a6-893a-e99eca35093d" name="Changes" comment="update">
+      <change afterPath="$PROJECT_DIR$/src/main/java/tk/ivision/controller/AppController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tk/ivision/core/controller/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tk/ivision/core/global/Resource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tk/ivision/core/global/Response.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tk/ivision/core/global/SystemColor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tk/ivision/core/objects/TuioDemoBlob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tk/ivision/core/objects/TuioDemoObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tk/ivision/core/objects/feedbackObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tk/ivision/core/view/BagConstraints.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tk/ivision/core/view/TuioComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tk/ivision/core/view/View.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tk/ivision/view/app/AppMenuBar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tk/ivision/view/app/MainPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/icons/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/icons/icons8_Key_Security_30px.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/icons/icons8_add_new_16px.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/icons/icons8_add_user_male_16px.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/icons/icons8_broken_link_16px.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/icons/icons8_documents_folder_16px.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/icons/icons8_error_16px.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/icons/icons8_eye_16px.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/icons/icons8_key_16px.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/icons/icons8_link_16px.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/icons/icons8_lips_16px.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/icons/icons8_login_16px.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/icons/icons8_offline_16px.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/icons/icons8_offline_16px_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/icons/icons8_online_16px.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/icons/icons8_online_16px_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/icons/icons8_open_lock_16px.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/icons/icons8_opened_folder_16px.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/icons/icons8_save_16px.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/icons/icons8_save_16px_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/icons/icons8_view_all_16px.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tk/ivision/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tk/ivision/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -40,6 +85,11 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="tk.ivision.core.objects" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -105,7 +155,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679637716704</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="update">
+      <created>1679669880443</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1679669880443</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
