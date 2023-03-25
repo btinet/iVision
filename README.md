@@ -27,6 +27,9 @@ den Förderverein des Treptow-Kollegs.*
 
 ## Projektstatus
 
+- ✅ Feedback-Indikator (Präsentationsfolien) 
+- ✅ Feedback-Beamer Output
+
 ### To do
 
 - Responsive Content Layout (RCL)
