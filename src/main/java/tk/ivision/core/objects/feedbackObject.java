@@ -1,6 +1,15 @@
 package tk.ivision.core.objects;
 
 import TUIO.TuioObject;
+import TUIO.TuioPoint;
+import com.formdev.flatlaf.util.Animator;
+import com.sun.corba.se.spi.ior.Writeable;
+import com.sun.xml.internal.ws.spi.db.PropertySetter;
+import javafx.animation.FadeTransition;
+import javafx.animation.KeyFrame;
+import javafx.animation.KeyValue;
+import javafx.animation.Timeline;
+import javafx.util.Duration;
 import tk.ivision.core.global.SystemColor;
 import tk.ivision.core.view.TuioComponent;
 
@@ -8,6 +17,7 @@ import java.awt.*;
 import java.awt.geom.AffineTransform;
 import java.awt.geom.Arc2D;
 import java.awt.geom.Rectangle2D;
+import java.util.Timer;
 
 public class feedbackObject extends TuioObject {
 
@@ -30,6 +40,7 @@ public class feedbackObject extends TuioObject {
         sideB = new Arc2D.Float(Arc2D.OPEN);
         sideC = new Arc2D.Float(Arc2D.OPEN);
         sideD = new Arc2D.Float(Arc2D.OPEN);
+
 
         sideA.setFrame(-(80+size)/2,-(80+size)/2,80+size,80+size);
         sideB.setFrame(-(80+size)/2,-(80+size)/2,80+size,80+size);
@@ -149,13 +160,28 @@ public class feedbackObject extends TuioObject {
                 BasicStroke.JOIN_MITER));
 
         g.setPaint(SystemColor.PRIMARY);
+
         g.draw(s);
         //g.setColor(new Color(220, 190, 30));
+        Font font = new Font("Tahoma", Font.BOLD, 36);
+        AffineTransform affineTransform = new AffineTransform();
+        affineTransform.scale(-1, 1);
+        Font rotatedFont = font.deriveFont(affineTransform);
+
+        g.setPaint(Color.WHITE);
+            g.setFont(rotatedFont);
+            g.scale(1,1);
+            g.drawString(positionText,Xpos+10,Ypos+TuioComponent.object_size+60);
 
 
-        g.setPaint(Color.white);
-        g.setFont(new Font("Tahoma", Font.BOLD, 36));
-        g.drawString(positionText,Xpos-10,Ypos+180);
+
+    }
+
+    public Color getColor(Color color){
+        return color;
+    }
+    public synchronized void processLoop(Color color) {
+
     }
 
     public void update(TuioObject tobj) {
@@ -175,7 +201,7 @@ public class feedbackObject extends TuioObject {
         if (da!=0) {
             AffineTransform trans = AffineTransform.getRotateInstance(da,tobj.getX(),tobj.getY());
             arc.setAngleStart(90);
-            arc2.setAngleStart(dad+67.5);
+            arc2.setAngleStart(-dad+67.5);
 
             sideA.setAngleStart(55-dad);
             sideB.setAngleStart(145-dad);

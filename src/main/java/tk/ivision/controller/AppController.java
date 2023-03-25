@@ -7,6 +7,7 @@ import tk.ivision.core.view.TuioComponent;
 import tk.ivision.core.view.View;
 import tk.ivision.view.app.AppMenuBar;
 import tk.ivision.view.app.MainPanel;
+import tk.ivision.view.screen.FeedbackComponent;
 
 import javax.swing.*;
 import java.awt.*;
@@ -15,7 +16,7 @@ import java.awt.event.ActionEvent;
 public class AppController extends Controller {
 
     public AppController(){
-        super(new TuioComponent());
+        super(new FeedbackComponent());
     }
 
     public void index(ActionEvent e){

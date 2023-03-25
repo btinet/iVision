@@ -5,42 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b0e0f30d-9e9a-43a6-893a-e99eca35093d" name="Changes" comment="update">
-      <change afterPath="$PROJECT_DIR$/src/main/java/tk/ivision/controller/AppController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tk/ivision/core/controller/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tk/ivision/core/global/Resource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tk/ivision/core/global/Response.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tk/ivision/core/global/SystemColor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tk/ivision/core/objects/TuioDemoBlob.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tk/ivision/core/objects/TuioDemoObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tk/ivision/core/objects/feedbackObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tk/ivision/core/view/BagConstraints.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tk/ivision/core/view/TuioComponent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tk/ivision/core/view/View.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tk/ivision/view/app/AppMenuBar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tk/ivision/view/app/MainPanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/icons/favicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/icons/icons8_Key_Security_30px.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/icons/icons8_add_new_16px.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/icons/icons8_add_user_male_16px.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/icons/icons8_broken_link_16px.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/icons/icons8_documents_folder_16px.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/icons/icons8_error_16px.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/icons/icons8_eye_16px.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/icons/icons8_key_16px.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/icons/icons8_link_16px.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/icons/icons8_lips_16px.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/icons/icons8_login_16px.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/icons/icons8_offline_16px.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/icons/icons8_offline_16px_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/icons/icons8_online_16px.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/icons/icons8_online_16px_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/icons/icons8_open_lock_16px.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/icons/icons8_opened_folder_16px.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/icons/icons8_save_16px.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/icons/icons8_save_16px_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/icons/icons8_view_all_16px.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tk/ivision/view/screen/FeedbackComponent.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tk/ivision/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tk/ivision/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tk/ivision/controller/AppController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tk/ivision/controller/AppController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tk/ivision/core/objects/feedbackObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tk/ivision/core/objects/feedbackObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tk/ivision/core/view/TuioComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tk/ivision/core/view/TuioComponent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tk/ivision/core/view/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tk/ivision/core/view/View.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,7 +132,42 @@
       <option name="project" value="LOCAL" />
       <updated>1679669880443</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="update">
+      <created>1679750416301</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1679750416301</updated>
+    </task>
+    <task id="LOCAL-00011" summary="update">
+      <created>1679751413265</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1679751413265</updated>
+    </task>
+    <task id="LOCAL-00012" summary="update">
+      <created>1679751528938</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1679751528938</updated>
+    </task>
+    <task id="LOCAL-00013" summary="update">
+      <created>1679751763876</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1679751763876</updated>
+    </task>
+    <task id="LOCAL-00014" summary="update">
+      <created>1679751888032</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1679751888032</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

@@ -15,22 +15,22 @@ import java.util.Hashtable;
 
 public class TuioComponent extends JComponent implements TuioListener, SystemColor {
 
-    private Hashtable<Long, TuioObject> objectList = new Hashtable<Long,TuioObject>();
-    private Hashtable<Long, TuioCursor> cursorList = new Hashtable<Long,TuioCursor>();
-    private Hashtable<Long, TuioBlob>   blobList   = new Hashtable<Long,TuioBlob>();
+    protected Hashtable<Long, TuioObject> objectList = new Hashtable<Long,TuioObject>();
+    protected Hashtable<Long, TuioCursor> cursorList = new Hashtable<Long,TuioCursor>();
+    protected Hashtable<Long, TuioBlob>   blobList   = new Hashtable<Long,TuioBlob>();
 
     public static final int finger_size = 18;
-    public static final int object_size = 240;
+    public static final int object_size = 200;
     public static final int table_size = 760;
 
     public static int width, height;
-    private float scale = 1.0f;
+    protected float scale = 1.0f;
     public boolean verbose = false;
 
-    Color bgrColor = SECONDARY;
-    Color curColor = PRIMARY;
-    Color objColor = SUCCESS;
-    Color blbColor = WARNING;
+    protected Color bgrColor = SECONDARY;
+    protected Color curColor = PRIMARY;
+    protected Color objColor = SUCCESS;
+    protected Color blbColor = WARNING;
 
     public TuioComponent () {
         View.view.setTuioComponent(this);
@@ -44,7 +44,7 @@ public class TuioComponent extends JComponent implements TuioListener, SystemCol
     }
 
     public void addTuioObject(TuioObject tobj) {
-        feedbackObject demo = new feedbackObject(tobj);
+        TuioDemoObject demo = new TuioDemoObject(tobj);
         objectList.put(tobj.getSessionID(),demo);
 
         if (verbose)
@@ -53,7 +53,7 @@ public class TuioComponent extends JComponent implements TuioListener, SystemCol
 
     public void updateTuioObject(TuioObject tobj) {
 
-        feedbackObject demo = (feedbackObject)objectList.get(tobj.getSessionID());
+        TuioDemoObject demo = (TuioDemoObject)objectList.get(tobj.getSessionID());
         demo.update(tobj);
 
         if (verbose)
@@ -169,7 +169,7 @@ public class TuioComponent extends JComponent implements TuioListener, SystemCol
         // draw the objects
         Enumeration<TuioObject> objects = objectList.elements();
         while (objects.hasMoreElements()) {
-            feedbackObject tobj = (feedbackObject) objects.nextElement();
+            TuioDemoObject tobj = (TuioDemoObject) objects.nextElement();
             if (tobj!=null) tobj.paint(g2, width,height);
         }
     }

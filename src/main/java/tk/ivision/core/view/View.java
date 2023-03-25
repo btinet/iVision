@@ -22,10 +22,10 @@ public class View {
     public JFrame displayFrame;
     public CardLayout cardLayout = new CardLayout();
 
-    public final int window_width  = 800;
-    public final int window_height = 600;
+    public final int window_width  = 1280;
+    public final int window_height = 720;
 
-    private boolean fullscreen = false;
+    private boolean fullscreen = true;
 
     private TuioComponent tuioComponent;
     private GraphicsDevice device;
