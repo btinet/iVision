@@ -17,4 +17,4 @@ Mediaplayer-Steuerung oder ein Folienindikator.
 
 ### Präsentationsfolien
 
-![position_indicator_a.png](assets%2Fimages%2Fscreenshots%2Fposition_indicator_a.png)
+![position_indicator_a.png](./assets/images/screenshots/position_indicator_a.png)

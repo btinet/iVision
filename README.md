@@ -1,5 +1,5 @@
 # iVision
-![tk.png](./docs/assets/images/tk.png) ![reactable.png](docs%2Fassets%2Fimages%2Freactable.png)
+![tk.png](./docs/assets/images/tk.png) ![reactable.png](./docs/assets/images/reactable.png)
 
 iVision ist eine Software zur intelligenten medialen
 Unterstützung von Vorträgen, Referaten und Präsentationen.
