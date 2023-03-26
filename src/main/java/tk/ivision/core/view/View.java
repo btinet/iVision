@@ -25,7 +25,7 @@ public class View {
     public final int window_width  = 1280;
     public final int window_height = 720;
 
-    private boolean fullscreen = true;
+    private boolean fullscreen = false;
 
     private TuioComponent tuioComponent;
     private GraphicsDevice device;

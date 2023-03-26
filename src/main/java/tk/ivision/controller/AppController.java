@@ -3,10 +3,12 @@ package tk.ivision.controller;
 import TUIO.TuioClient;
 import TUIO.TuioListener;
 import tk.ivision.core.controller.Controller;
+import tk.ivision.core.objects.SlideObject;
 import tk.ivision.core.view.TuioComponent;
 import tk.ivision.core.view.View;
 import tk.ivision.view.app.AppMenuBar;
 import tk.ivision.view.app.MainPanel;
+import tk.ivision.view.screen.DisplayComponent;
 import tk.ivision.view.screen.FeedbackComponent;
 
 import javax.swing.*;
@@ -28,8 +30,8 @@ public class AppController extends Controller {
             client.connect();
         }
 
-        TuioComponent displayTuioComponent = new TuioComponent();
-        client.addTuioListener(displayTuioComponent);
+        DisplayComponent displayComponent = new DisplayComponent();
+        client.addTuioListener(displayComponent);
 
 
         // Neues Panel erstellen und Liste hinzufügen.
@@ -41,7 +43,7 @@ public class AppController extends Controller {
 
         // Panel zum Kartenlayout hinzufügen
         addLayoutComponent(View.view.feedbackFrame, getTuioComponent(), "app");
-        addLayoutComponent(View.view.displayFrame,displayTuioComponent , "app");
+        addLayoutComponent(View.view.displayFrame,displayComponent , "app");
         view.feedbackFrame.setJMenuBar(null);
 
 
